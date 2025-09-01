@@ -9,7 +9,7 @@ In this tutorial, we aim to introduce the foundations of **3D Virtual Humans** a
 In particular, we combine the two worlds to develop a **compact but effective 3D Human Registration pipeline**.  
 Finally, we review the latest trends and **open challenges** in the Virtual Humans field.
 
-**We will also run a few demo scripts, which you can also run on your laptop by setting the environment as described below.**
+**We will also present a few demo scripts, which you can also run on your laptop by setting the environment as described below.**
 
 ---
 
