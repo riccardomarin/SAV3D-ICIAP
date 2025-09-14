@@ -55,13 +55,12 @@ pip install git+https://github.com/mattloper/chumpy@9b045ff5d6588a24a0bab52c83f0
 pip install git+https://github.com/facebookresearch/pytorch3d.git@75ebeeaea0908c5527e7b1e305fbc7681382db47
 ```
 You also need to create an account on:
-https://smplify.is.tue.mpg.de/
 
-and
+- SMPLfy: https://smplify.is.tue.mpg.de/
+- AMASS: https://amass.is.tue.mpg.de/
 
-https://amass.is.tue.mpg.de/
-
-Then, run the scripts in the `scripts` folder to fetch the data needed to run the scripts.
+Then, run the scripts in the `scripts` folder to fetch the data needed to run the scripts. Both Linux Bash and Windows PowerShell versions of the scripts are available.
+In case of trouble, just perform manually the instructions inside.
 
 ----
 
@@ -72,10 +71,8 @@ This tutorial takes inspiration from a number of sources, useful to dive deeper 
 - Meshcapade Wiki: https://meshcapade.wiki/
 - FAUST dataset: https://faust-leaderboard.is.tuebingen.mpg.de/
 - Many tutorials on 3D Spectral shape analysis:
-https://github.com/riccardomarin/Tutorial_Spectral_Geometry
-https://github.com/riccardomarin/SpectralShapeAnalysis
-https://github.com/melzismn/fmap
-https://github.com/AriannaRampini/InverseSpectralGeometry_3DVTutorial
-https://github.com/lcosmo/isospectralization
-
-
+  + https://github.com/riccardomarin/Tutorial_Spectral_Geometry<br>
+  + https://github.com/riccardomarin/SpectralShapeAnalysis<br>
+  + https://github.com/melzismn/fmap<br>
+  + https://github.com/AriannaRampini/InverseSpectralGeometry_3DVTutorial<br>
+  + https://github.com/lcosmo/isospectralization<br>
