@@ -47,7 +47,7 @@ conda create -n sav3d python=3.9
 conda activate sav3d
 
 conda install -c conda-forge libstdcxx-ng
-pip install smplx[all] open3d plyfile moderngl-window==2.4.6 pyglet aitviewer robust_laplacian
+pip install smplx[all] open3d plyfile moderngl-window==2.4.6 pyglet aitviewer robust_laplacian scikit-learn pandas
 
 pip install git+https://github.com/mattloper/chumpy@9b045ff5d6588a24a0bab52c83f032e2ba433e17
 pip install git+https://github.com/facebookresearch/pytorch3d.git@75ebeeaea0908c5527e7b1e305fbc7681382db47
