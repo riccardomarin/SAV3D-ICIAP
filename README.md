@@ -53,5 +53,29 @@ pip install smplx[all] open3d plyfile moderngl-window==2.4.6 pyglet aitviewer ro
 
 pip install git+https://github.com/mattloper/chumpy@9b045ff5d6588a24a0bab52c83f032e2ba433e17
 pip install git+https://github.com/facebookresearch/pytorch3d.git@75ebeeaea0908c5527e7b1e305fbc7681382db47
+```
+You also need to create an account on:
+https://smplify.is.tue.mpg.de/
+
+and
+
+https://amass.is.tue.mpg.de/
+
+Then, run the scripts in the `scripts` folder to fetch the data needed to run the scripts.
+
+----
+
+This tutorial takes inspiration from a number of sources, useful to dive deeper in the topics. In case you reuse some of the material of this tutorial, please give them proper credits:
+
+- SMPL made simple tutorial: https://smpl-made-simple.is.tue.mpg.de/
+- "Virtual Humans" Lecture from University of Tuebingen: https://www.youtube.com/watch?v=DFHuV7nOgsI&list=PL05umP7R6ij13it8Rptqo7lycHozvzCJn
+- Meshcapade Wiki: https://meshcapade.wiki/
+- FAUST dataset: https://faust-leaderboard.is.tuebingen.mpg.de/
+- Many tutorials on 3D Spectral shape analysis:
+https://github.com/riccardomarin/Tutorial_Spectral_Geometry
+https://github.com/riccardomarin/SpectralShapeAnalysis
+https://github.com/melzismn/fmap
+https://github.com/AriannaRampini/InverseSpectralGeometry_3DVTutorial
+https://github.com/lcosmo/isospectralization
 
 
