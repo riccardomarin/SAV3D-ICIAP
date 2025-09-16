@@ -40,8 +40,6 @@ o3d_write      = o3d.io.write_triangle_mesh
 # Initializing SMPL Layer
 smpl_layer = smplx.create('./dataset/body_models/', model_type="smpl", gender='neutral')
 smpl_layer()['vertices'].shape
-st = o3d_read('./smpl_uv.obj')
-np.asarray(st.vertices)
 
 # Loading the poses
 dict = np.load('dataset/motions/poses.npz')
